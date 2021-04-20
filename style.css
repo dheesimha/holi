@@ -130,6 +130,81 @@ table,th,td
 }
 
 
+.instructions
+{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.instructions h2
+{
+    color:white;
+}
+
+.instructions .do
+{
+ 
+    color:rgb(61, 185, 61);
+    font-weight:600;
+    font-size: 2rem;
+    
+}
+
+.dool
+{
+    color:white;
+}
+
+.instructions .dont
+{
+ 
+    color:rgb(194, 33, 33);
+    font-weight:600;
+    font-size: 2rem;
+    
+}
+
+.dontol
+{
+    color:white;
+}
+
+
+#forms
+{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 2rem;
+    color:rgb(241, 240, 240);
+
+}
+
+#forms h2
+{
+  color:white;
+  font-size: 2rem;
+
+}
+
+#submit
+{
+    font-size: 1.2rem;
+    width:60%;
+    background-color: #da25b6;
+    border: none;
+    border-radius: 14px;
+    color:white
+}
+
+#submit:hover{
+    background-color: #f75da6;
+}
 /*Media Queries*/
 
 @media(max-width:760px)
